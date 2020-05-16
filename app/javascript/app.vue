@@ -3,17 +3,15 @@
 
 <!-- ポートフォリオ一覧 -->
   <v-app id="app">
-  <v-content>
-    <v-container
-        class="fill-height"
+    <v-content
+        class="fill-height p-0"
         fluid
       >
       <v-img
         width="100%"
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747776_1280.jpg">
       </v-img>
-    </v-container>
-  </v-content>
+    </v-content>
     <v-container
       class="fill-height"
       fluid
