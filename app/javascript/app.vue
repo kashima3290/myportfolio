@@ -1,22 +1,22 @@
 <template>
-  <div id="app">
+  <v-app id="app">
+    <Header/>
+    <h1>This is app.vue</h1>
     <p>{{ message }}</p>
-  </div>
+  </v-app>
 </template>
 
 <script>
+import Header from "./components/Header";
+
 export default {
   data: function () {
     return {
       message: "Hello Vue!"
     }
+  },
+  components: {
+    Header,
   }
 }
 </script>
-
-<style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
-</style>
