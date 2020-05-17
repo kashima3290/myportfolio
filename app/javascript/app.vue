@@ -16,7 +16,7 @@
 
           <v-icon color="blue-grey darken-3">mdi-email</v-icon>
 
-          <v-icon color="blue-grey darken-3">mdi-call-split</v-icon>
+          <v-icon color="blue-grey darken-3">mdi-amazon</v-icon>
 
           <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
         </v-row>
@@ -44,16 +44,44 @@
       <v-parallax
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg">
         <div class="mx-auto">
-          <p class="black--text font-italic font-weight-light display-1">HTML&CSS</p>
-          <p class="black--text font-italic font-weight-light display-1">Ruby</p>
-          <p class="black--text font-italic font-weight-light display-1">Ruby on Rails</p>
-          <p class="black--text font-italic font-weight-light display-1">JavaScript</p>
-          <p class="black--text font-italic font-weight-light display-1">Github</p>
-          <p class="black--text font-italic font-weight-light display-1">AWS</p>
-          <p class="black--text font-italic font-weight-light display-1">Docker</p>
+          <div class="d-flex  mb-4">
+            <v-icon color="yellow darken-3" large>mdi-language-html5</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">HTML&CSS</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="red darken-3" large>mdi-ruby</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">Ruby</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="red darken-3" large>mdi-language-ruby-on-rails</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">Ruby on Rails</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="yellow darken-3" dark large>mdi-language-javascript</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">JavaScript</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="blue-grey darken-3" large>mdi-git</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">Github</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="orange darken-3" large>mdi-aws</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">AWS</p>
+          </div>
+
+          <div class="d-flex mb-4">
+            <v-icon color="blue darken-3" large>mdi-docker</v-icon>&emsp;
+            <p class="black--text font-italic font-weight-light display-1 mb-0">Docker</p>
+          </div>
+
         </div>
       </v-parallax>
-      <!-- ポートフォリオ一覧 -->
+    <!-- ポートフォリオ一覧 -->
     <v-content
     >
       <v-fade-transition mode="out-in">
