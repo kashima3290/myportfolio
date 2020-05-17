@@ -22,8 +22,37 @@
             class="align-center">
           </v-img>
         </div>
-        <div class="mt-10">
-          <p class="display-1 black--text font-weight-thin">Name: 加島 雷一騎</p>
+        <!-- 右 -->
+        <div>
+          <v-card
+            class="mx-auto"
+            max-width="100%"
+            height="550px"
+            tile
+          >
+            <v-list-item>
+              <v-list-item-content>
+                <v-list-item-title>加島雷一騎</v-list-item-title>
+                <v-list-item-subtitle>20歳&emsp;大阪&emsp;大学3回生</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-title>学歴</v-list-item-title>
+                <v-list-item-subtitle>2018年4月&emsp;佛教大学社会福祉学部入学</v-list-item-subtitle>
+                <v-list-item-subtitle>2020年3月&emsp;短期集中プログラミングスクール TECH::CAMP（株式会社div）</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item three-line>
+              <v-list-item-content>
+                <p class="text-justify">
+                  大学生活の中でプログラミングでのものづくりによって人を笑顔にすることに興味を持ち、プログラミングスクールにいくことを決断しました。<br><br>卒業した後も、日々新しい技術を勉強しています。<br>主な言語は HTML&CSS・Ruby・Ruby on Rails・JavaScript・Githubを学び、バックエンドに力を注いでいます。<br><br>現在は現場での経験を積みたい一心で、インターン先を探しています。採用されたからには必ず役に立てるよう努力しますので、よろしくお願いします。<br><br>Ruby on Railsでのチーム開発の経験から、共に成長しあえる関係性を学び、<br>誰かと共に開発に携わりたいという思いがあります。<br>またその中で、新たに成長しあえる関係を生み出していきたいです。
+                </p>
+              </v-list-item-content>
+            </v-list-item>
+          </v-card>
         </div>
       </div>
       <!-- スキルセット -->
@@ -223,6 +252,14 @@
               href="https://www.wantedly.com/users/130702131"
             >
               <v-icon size="24px">mdi-alpha-w-box-outline</v-icon>
+            </v-btn>
+            <v-btn
+              class="mx-4"
+              dark
+              icon
+              href="https://line.me/ti/p/fXlCf5Fbdy"
+            >
+              <v-icon>fab fa-line</v-icon>
             </v-btn>
           </v-card-title>
 
