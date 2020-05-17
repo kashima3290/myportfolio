@@ -22,6 +22,9 @@
         </v-row>
       </v-parallax>
       <!-- 自己紹介 -->
+      <v-row justify="center" align-content="center" style="height: 220px;">
+        <p class="display-3 black--text font-weight-thin">Introduction</p>
+      </v-row>
       <div class="d-flex justify-space-around mt-10">
         <div>
           <v-img
@@ -30,21 +33,19 @@
             class="align-center">
           </v-img>
         </div>
-        <div>
-          <h1>Name: </h1>
+        <div class="mt-10">
+          <p class="display-1 black--text font-weight-thin">Name: 加島 雷一騎</p>
         </div>
       </div>
-    </v-content>
-    <!-- スキル -->
-    <!-- ポートフォリオ一覧 -->
-    <v-container
-      class="fill-height"
-      fluid
-      style="min-height: 434px"
+      <!-- スキルセット -->
+      <v-row justify="center" align-content="center" style="height: 220px;">
+        <p class="display-3 black--text font-weight-thin">Skill set</p>
+      </v-row>
+      <!-- ポートフォリオ一覧 -->
+    <v-content
     >
       <v-fade-transition mode="out-in">
         <v-row v-if="show" key="0">
-
           <!-- Weather Bot -->
           <v-hover>
             <template v-slot:default="{ hover }">
@@ -66,7 +67,6 @@
               </v-col>
             </template>
           </v-hover>
-
           <!-- Hash litelal -->
           <v-hover>
             <template v-slot:default="{ hover }">
@@ -88,7 +88,6 @@
               </v-col>
             </template>
           </v-hover>
-
           <!-- meetup -->
           <v-hover>
             <template v-slot:default="{ hover }">
@@ -110,15 +109,14 @@
               </v-col>
             </template>
           </v-hover>
-
         </v-row>
-
         <v-row v-else key="1" justify="center">
-          <v-btn text @click="show = true">Portfolio</v-btn>
+          <v-btn x-large color="success" text @click="show = true">Portfolio</v-btn>
         </v-row>
 
       </v-fade-transition>
-    </v-container>
+    </v-content>
+    </v-content>
   </v-app>
 </template>
 
