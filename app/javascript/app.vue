@@ -8,17 +8,6 @@
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747776_1280.jpg">
         <p class="display-4 black--text font-weight-thin">Portfolio</p>
         <v-row justify="space-around align-end mb-3">
-          <v-icon color="blue-grey darken-3">mdi-domain</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-message-text</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-dialpad</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-email</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-amazon</v-icon>
-
-          <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
         </v-row>
       </v-parallax>
       <!-- 自己紹介 -->
@@ -92,7 +81,7 @@
               <v-col cols="6">
                 <v-card>
                   <v-img src="https://i.gyazo.com/9f006436148805e45172639c7ae55d02.png"
-                  height="200"></v-img>
+                  height="300"></v-img>
                   <v-card-title class="title">Line Bot</v-card-title>
                   <v-fade-transition>
                     <v-overlay
@@ -100,7 +89,7 @@
                       absolute
                       color="#036358"
                     >
-                      <v-btn>Go to app</v-btn>
+                      <v-btn href="https://line.me/R/ti/p/@793rgjbt">Go to app</v-btn>
                     </v-overlay>
                   </v-fade-transition>
                 </v-card>
@@ -113,7 +102,7 @@
               <v-col cols="6">
                 <v-card>
                   <v-img src="https://i.gyazo.com/e50e15b4c84028124ee3dfb7d0da6f6a.jpg"
-                  height="200"></v-img>
+                  height="300"></v-img>
                   <v-card-title class="title">Hash Literal</v-card-title>
                   <v-fade-transition>
                     <v-overlay
@@ -121,7 +110,7 @@
                       absolute
                       color="#036358"
                     >
-                      <v-btn>Go to app</v-btn>
+                      <v-btn href="http://www.hash-literal.com/">Go to app</v-btn>
                     </v-overlay>
                   </v-fade-transition>
                 </v-card>
@@ -134,7 +123,7 @@
               <v-col cols="6">
                 <v-card>
                   <v-img src="https://i.gyazo.com/25576e7ba493c6ea751d4ade86c35c78.jpg"
-                  height="200"></v-img>
+                  height="300"></v-img>
                   <v-card-title class="title">meetup</v-card-title>
                   <v-fade-transition>
                     <v-overlay
@@ -142,7 +131,28 @@
                       absolute
                       color="#036358"
                     >
-                      <v-btn>Go to app</v-btn>
+                      <v-btn href="http://18.180.202.49/">Go to app</v-btn>
+                    </v-overlay>
+                  </v-fade-transition>
+                </v-card>
+              </v-col>
+            </template>
+          </v-hover>
+          <!-- Github -->
+          <v-hover>
+            <template v-slot:default="{ hover }">
+              <v-col cols="6">
+                <v-card>
+                  <v-img src="https://i.gyazo.com/794a57a42a65c421e8f6609c9a0e0bb2.png"
+                  height="300"></v-img>
+                  <v-card-title class="title">Github</v-card-title>
+                  <v-fade-transition>
+                    <v-overlay
+                      v-if="hover"
+                      absolute
+                      color="#036358"
+                    >
+                      <v-btn href="https://github.com/kashima3290">Go to site</v-btn>
                     </v-overlay>
                   </v-fade-transition>
                 </v-card>
@@ -156,6 +166,68 @@
 
       </v-fade-transition>
     </v-content>
+    <!-- 連絡先 -->
+      <v-row justify="center" align-content="center" style="height: 320px;">
+          <p class="display-3 black--text font-weight-thin">Contact</p>
+      </v-row>
+      <v-parallax
+        height="300"
+        src="https://cdn.pixabay.com/photo/2017/07/09/13/01/white-2486923_1280.jpg"
+      >
+        <div class="d-flex justify-space-around mt-10">
+          <div class="mt-10 black--text black--text font-weight-thin headline">
+            <p class="my-10 black--text black--text font-weight-thin headline">phone number</p>
+            <p class="my-10 black--text black--text font-weight-thin headline">email</p>
+          </div>
+          <div class="mt-10 black--text black--text font-weight-thin headline">
+            <p class="my-10 black--text black--text font-weight-thin headline">080-2472-1832</p>
+            <p class="my-10 black--text black--text font-weight-thin headline">raiki3290@gmail.com</p>
+          </div>
+        </div>
+      </v-parallax>
+      <!-- フッター -->
+      <v-footer
+        gray
+        dark
+      >
+        <v-card
+          class="flex"
+          gray
+          dark
+        >
+          <v-card-title class="gray">
+            <strong class="subheading">Please Follow me if you like!</strong>
+
+            <v-spacer></v-spacer>
+
+            <v-btn
+              class="mx-4"
+              dark
+              icon
+              href="https://twitter.com/raiki3232"
+            >
+              <v-icon size="24px">mdi-twitter</v-icon>
+            </v-btn>
+            <v-btn
+              class="mx-4"
+              dark
+              icon
+              href="https://www.instagram.com/raiki_3"
+            >
+              <v-icon size="24px">mdi-instagram</v-icon>
+            </v-btn>
+            <v-btn
+              class="mx-4"
+              dark
+              icon
+              href="https://www.wantedly.com/users/130702131"
+            >
+              <v-icon size="24px">mdi-alpha-w-box-outline</v-icon>
+            </v-btn>
+          </v-card-title>
+
+        </v-card>
+      </v-footer>
     </v-content>
   </v-app>
 </template>
@@ -167,6 +239,12 @@ export default {
   data: function () {
     return {
       show: false,
+      icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
+      ],
     }
   },
   components: {
