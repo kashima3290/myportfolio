@@ -7,18 +7,18 @@
       <v-parallax
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747776_1280.jpg">
         <p class="display-4 black--text font-weight-thin">Portfolio</p>
-        <v-row justify="space-around">
-          <v-icon large color="green darken-2">mdi-domain</v-icon>
+        <v-row justify="space-around align-end mb-3">
+          <v-icon color="blue-grey darken-3">mdi-domain</v-icon>
 
-          <v-icon large color="blue darken-2">mdi-message-text</v-icon>
+          <v-icon color="blue-grey darken-3">mdi-message-text</v-icon>
 
-          <v-icon large color="purple darken-2">mdi-dialpad</v-icon>
+          <v-icon color="blue-grey darken-3">mdi-dialpad</v-icon>
 
-          <v-icon large color="teal darken-2">mdi-email</v-icon>
+          <v-icon color="blue-grey darken-3">mdi-email</v-icon>
 
-          <v-icon large color="blue-grey darken-2">mdi-call-split</v-icon>
+          <v-icon color="blue-grey darken-3">mdi-call-split</v-icon>
 
-          <v-icon large color="orange darken-2">mdi-arrow-up-bold-box-outline</v-icon>
+          <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
         </v-row>
       </v-parallax>
     </v-content>
