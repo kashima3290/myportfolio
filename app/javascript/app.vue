@@ -151,7 +151,7 @@
           </v-hover>
         </v-row>
         <v-row v-else key="1" justify="center">
-          <v-btn x-large color="success" dark text @click="show = true">Portfolio</v-btn>
+          <v-btn class="my-10" height="100px" width="200px" x-large color="success" dark rounded @click="show = true">Portfolio</v-btn>
         </v-row>
 
       </v-fade-transition>
