@@ -21,8 +21,21 @@
           <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
         </v-row>
       </v-parallax>
+      <!-- 自己紹介 -->
+      <div class="d-flex justify-space-around mt-10">
+        <div>
+          <v-img
+            src="https://i.gyazo.com/ad3a231e1d20bf596af18c7679b1a07e.jpg"
+            width="90%"
+            class="align-center">
+          </v-img>
+        </div>
+        <div>
+          <h1>Name: </h1>
+        </div>
+      </div>
     </v-content>
-    <!-- 自己紹介 -->
+    <!-- スキル -->
     <!-- ポートフォリオ一覧 -->
     <v-container
       class="fill-height"
