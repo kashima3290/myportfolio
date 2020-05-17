@@ -43,19 +43,15 @@
       </v-row>
       <v-parallax
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg">
-        <v-row justify="space-around">
-          <v-icon color="blue-grey darken-3">mdi-domain</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-message-text</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-dialpad</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-email</v-icon>
-
-          <v-icon color="blue-grey darken-3">mdi-call-split</v-icon>
-
-          <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
-        </v-row>
+        <div class="mx-auto">
+          <p class="black--text font-italic font-weight-light display-1">HTML&CSS</p>
+          <p class="black--text font-italic font-weight-light display-1">Ruby</p>
+          <p class="black--text font-italic font-weight-light display-1">Ruby on Rails</p>
+          <p class="black--text font-italic font-weight-light display-1">JavaScript</p>
+          <p class="black--text font-italic font-weight-light display-1">Github</p>
+          <p class="black--text font-italic font-weight-light display-1">AWS</p>
+          <p class="black--text font-italic font-weight-light display-1">Docker</p>
+        </div>
       </v-parallax>
       <!-- ポートフォリオ一覧 -->
     <v-content
