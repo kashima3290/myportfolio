@@ -118,7 +118,7 @@
                       absolute
                       color="#036358"
                     >
-                      <v-btn href="https://line.me/R/ti/p/@793rgjbt">Go to app</v-btn>
+                      <v-btn href="https://i.gyazo.com/2d19c78708f97ba31c4dbc8aaa1d17fa.png">Go to app</v-btn>
                     </v-overlay>
                   </v-fade-transition>
                 </v-card>
