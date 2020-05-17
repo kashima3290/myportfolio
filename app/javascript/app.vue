@@ -41,6 +41,22 @@
       <v-row justify="center" align-content="center" style="height: 220px;">
         <p class="display-3 black--text font-weight-thin">Skill set</p>
       </v-row>
+      <v-parallax
+        src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg">
+        <v-row justify="space-around">
+          <v-icon color="blue-grey darken-3">mdi-domain</v-icon>
+
+          <v-icon color="blue-grey darken-3">mdi-message-text</v-icon>
+
+          <v-icon color="blue-grey darken-3">mdi-dialpad</v-icon>
+
+          <v-icon color="blue-grey darken-3">mdi-email</v-icon>
+
+          <v-icon color="blue-grey darken-3">mdi-call-split</v-icon>
+
+          <v-icon color="blue-grey darken-2">mdi-arrow-up-bold-box-outline</v-icon>
+        </v-row>
+      </v-parallax>
       <!-- ポートフォリオ一覧 -->
     <v-content
     >
@@ -111,7 +127,7 @@
           </v-hover>
         </v-row>
         <v-row v-else key="1" justify="center">
-          <v-btn x-large color="success" text @click="show = true">Portfolio</v-btn>
+          <v-btn x-large color="success" dark text @click="show = true">Portfolio</v-btn>
         </v-row>
 
       </v-fade-transition>
