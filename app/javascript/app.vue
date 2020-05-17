@@ -1,7 +1,4 @@
 <template>
-
-
-<!-- ポートフォリオ一覧 -->
   <v-app id="app">
     <v-content
         class="fill-height p-0"
@@ -12,6 +9,7 @@
         src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747776_1280.jpg">
       </v-img>
     </v-content>
+    <!-- ポートフォリオ一覧 -->
     <v-container
       class="fill-height"
       fluid
@@ -22,52 +20,40 @@
           <v-col cols="6">
             <v-card>
               <v-img
-                src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg"
+                src="https://i.gyazo.com/9f006436148805e45172639c7ae55d02.png"
                 height="125"
                 class="grey darken-4"
               ></v-img>
-              <v-card-title class="title">height</v-card-title>
+              <v-card-title class="title">Weather Bot</v-card-title>
             </v-card>
           </v-col>
 
           <v-col cols="6">
             <v-card>
               <v-img
-                src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg"
+                src="https://i.gyazo.com/e50e15b4c84028124ee3dfb7d0da6f6a.jpg"
                 height="125"
-                contain
                 class="grey darken-4"
               ></v-img>
-              <v-card-title class="title">height with contain</v-card-title>
+              <v-card-title class="title">Hash litelal</v-card-title>
             </v-card>
           </v-col>
 
           <v-col cols="6">
             <v-card>
               <v-img
-                src="https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747781_1280.jpg"
-                max-height="125"
-                class="grey darken-4"
-              ></v-img>
-              <v-card-title class="title">max-height</v-card-title>
-            </v-card>
-          </v-col>
-
-          <v-col cols="6">
-            <v-card>
-              <v-img
-                src="/assets/portfolio1.jpg"
+                src="https://i.gyazo.com/25576e7ba493c6ea751d4ade86c35c78.jpg"
                 max-height="125"
                 contain
                 class="grey darken-4"
               ></v-img>
-              <v-card-title class="title">max-height with contain</v-card-title>
+              <v-card-title class="title">meetup</v-card-title>
             </v-card>
           </v-col>
         </v-row>
 
         <v-row v-else key="1" justify="center">
-          <v-btn text @click="show = true">Load images</v-btn>
+          <v-btn text @click="show = true">Portfolio</v-btn>
         </v-row>
       </v-fade-transition>
     </v-container>
