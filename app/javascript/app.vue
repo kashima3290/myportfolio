@@ -259,7 +259,7 @@
               icon
               href="https://line.me/ti/p/fXlCf5Fbdy"
             >
-              <v-icon>fab fa-line</v-icon>
+              <v-icon>mdi-alpha-l-box-outline</v-icon>
             </v-btn>
           </v-card-title>
 
