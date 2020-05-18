@@ -109,7 +109,7 @@
             <template v-slot:default="{ hover }">
               <v-col cols="6">
                 <v-card>
-                  <v-img src="https://i.gyazo.com/9f006436148805e45172639c7ae55d02.png"
+                  <v-img src="https://i.gyazo.com/2d19c78708f97ba31c4dbc8aaa1d17fa.png"
                   height="300"></v-img>
                   <v-card-title class="title">Line Bot</v-card-title>
                   <v-fade-transition>
@@ -118,7 +118,7 @@
                       absolute
                       color="#036358"
                     >
-                      <v-btn href="https://i.gyazo.com/2d19c78708f97ba31c4dbc8aaa1d17fa.png">Go to app</v-btn>
+                      <v-btn href="https://line.me/R/ti/p/@793rgjbt">Go to app</v-btn>
                     </v-overlay>
                   </v-fade-transition>
                 </v-card>
